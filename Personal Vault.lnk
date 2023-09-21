@@ -1,0 +1,34 @@
+styles.css
+body {
+    margin: 20px;
+    /*
+    Challenge:
+    Find a web safe font you like, and add it 
+    to your card.
+    */
+    font-family: garamond;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 20px;
+}
+
+.card {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #F5F1ED;
+    color: #252323;
+    border-bottom: 10px solid #70798C;
+    border-radius: 20px; 
+    border-left: 10px solid #DAD2BC;
+}
+
+.border-blue {
+    border: 1px dotted blue;
+}
